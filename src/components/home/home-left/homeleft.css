@@ -1,0 +1,9 @@
+.home-left-section {
+    background: var(--color-header-left-bg);
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}

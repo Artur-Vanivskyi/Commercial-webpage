@@ -1,0 +1,20 @@
+.request-section {
+    background: var(--color-header-right-bg);
+    width: 50%;
+}
+
+.request-section p {
+    color: var(--color-text-white);
+    font-family: var(--font-text);
+    font-size: 24px;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.request-section p:hover {
+    color:var(--color-text-red);
+} 

@@ -1,13 +1,57 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&family=Open+Sans:wght@300&display=swap');
+
+
+:root {
+
+  --color-white: #ffffff;
+  --color-header-right-bg: #141414;
+  --color-header-left-bg: rgba(235, 235, 235, 1);
+  --color-text-white:#ffffff;
+  --color-black-text:#000000;
+  --color-footer-black: #000000;
+
+  --color-text-red: red;
+  --font-text: 'Noto Sans SC'
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a,
+img,
+span,
+input,
+button,
+ion-icon {
+  display: block;
+}
+
+img {
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+body {
+  background-color: var(--white);
+  background-image: url('./assests/gallery/4bg\ \(1\).jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+

@@ -1,0 +1,39 @@
+.projects-container {
+    background: var(--color-white);
+    /* border: 1px solid red; */
+}
+
+.projects-caption {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    border-bottom: 1px solid black;
+}
+
+.projects-caption h2 {
+    font-family: var(--font-text);
+    font-size: 44px;
+}
+
+
+.projects-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.list-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+    width: 100%;
+    overflow: hidden;
+}
+
+.list-item img {
+    width: 80%;
+    height: 95%;
+    padding: 15px;
+    object-fit: cover;
+}
