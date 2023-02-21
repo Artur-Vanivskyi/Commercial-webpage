@@ -1,33 +1,30 @@
-import React from 'react';
-import { Switch, Route } from 'react-router-dom';
-import Commercial from './components/commercial/Commercial';
+import React from "react";
+
+import About from "./components/about/About";
+import Commercial from "./components/commercial/Commercial";
+import Footer from "./components/footer/Footer";
+import Gallery from "./components/gallery/Gallery";
 // import Header from './components/header/Header';
-import Home from './components/home/Home';
-import Projects from './components/projects/Projects';
-import Residential from './components/residential/Residential';
-import Service from './components/service/Service';
+import Home from "./components/home/Home";
+import Projects from "./components/projects/Projects";
+
+import Service from "./components/service/Service";
+import WorkProcess from "./components/work-process/WorkProcess";
 // import './App.css';
-
-
 
 function App() {
   return (
-  //  <Switch>
-  //   <Route exact path={'/'}>
-  //     <Home />
-  //   </Route>
-  //   <Route path={'/projects'}>
-  //     <Projects />
-  //   </Route>
-  //  </Switch>
-  <>
-  <Home />
-  <Service />
-  <Projects />
-  <Commercial />
-  <Residential />
-  
-  </>
+   
+    <>
+      <Home />
+      <Service />
+      <Projects />
+      <Commercial />
+      <Gallery />
+      <WorkProcess />
+      <About />
+      <Footer />
+    </>
   );
 }
 

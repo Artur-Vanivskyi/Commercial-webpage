@@ -21,7 +21,7 @@ function Projects() {
             <img src={one} alt="" />
           </div>
         </div>
-        <div className="projects-list">
+        <div className="projects-list bottom">
           <div className="list-item">
             <img src={one} alt="" />
           </div>

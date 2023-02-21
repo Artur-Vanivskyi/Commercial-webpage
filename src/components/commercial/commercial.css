@@ -11,6 +11,7 @@
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 30px;
+    height: 100vh;
 }
 
 .commercial-left h2 {
@@ -31,9 +32,9 @@
     object-fit:fill;
 }
 
-.commercial-right img:hover {
+/* .commercial-right img:hover {
     content: url("../../assests/gallery/test1.jpg");
-}
+} */
 
 .text-element p {
     font-family: var(--font-text);

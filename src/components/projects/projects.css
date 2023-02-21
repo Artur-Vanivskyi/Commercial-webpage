@@ -1,5 +1,6 @@
 .projects-container {
     background: var(--color-white);
+    width: 100%;
     /* border: 1px solid red; */
 }
 
@@ -20,6 +21,12 @@
 .projects-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.projects-list.bottom {
+    border-bottom: 2px solid black;
 }
 
 .list-item {
