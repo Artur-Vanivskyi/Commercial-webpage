@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@500&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Open+Sans:wght@300&display=swap');
 
 
 :root {
@@ -31,7 +31,6 @@ a {
 a,
 img,
 span,
-input,
 button,
 ion-icon {
   display: block;

@@ -1,7 +1,9 @@
 .work-container {
     width: 100%;
-    height: 100vh;
+    height: 110vh;
     background-color: var(--color-white);
+    /* border: 1px solid red; */
+  
 
 }
 
@@ -44,7 +46,7 @@
 }
 
 .work-content.last {
-    border-bottom: 2px solid black
+    border-bottom: 2px solid black;
 }
 
 .order-number p {

@@ -2,6 +2,7 @@
     width: 100%;
     height: 100vh;
     display: flex;
+    /* border: 1px solid red; */
 }
 
 .about-left-container {
@@ -19,9 +20,10 @@
     /* border: 1px solid red; */
     font-size: 45px;
     font-family: var(--font-text);
-    font-weight: 500;
+    font-weight: 400;
     color: var(--color-white);
     padding: 20px;
+    display: flex;
 }
 
 .about-text .text {
@@ -33,20 +35,104 @@
     word-spacing: 5px;
     font-size: 18px;
     opacity: 0.9;
+    font-weight: 400;
     /* line-height: 20px; */
 }
-
-
-
-
-
-
-
-
 
 
 .about-right-container {
     background: var(--color-header-left-bg);
     width: 50%;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.form-top {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+
+.top-text {
+    font-family: var(--font-text);
+}
+
+.top-text h2 {
+    font-size: 45px;
+    color: #141414;
+    opacity: 0.9;
+    line-height: 41px;
+}
+
+.top-text p {
+    padding-top: 40px;
+    line-height: 23px;
+    font-size: 18px;
+    color: #141414;
+    opacity: 0.9;
+    font-weight: 500;
+}
+
+.socials {
+    /* border: 1px solid red; */
+    font-size: 20px;
+   
+}
+
+.socials-list {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socials-item a ion-icon {
+    color: red;
+    background: var(--color-header-right-bg);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.form {
+    /* border: 1px solid red; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.form-input {
+    border: 2px solid black;
+    line-height: 30px;
+    width:350px;
+    font-size: 16px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    background-color: transparent;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    font-family: var(--font-text);
+    opacity: 0.9;
+    outline: none;
+}
+
+.form-input:focus::placeholder {
+    visibility: hidden;
+}
+
+.button {
+    padding: 0 15px;
+    display: block;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    background: red;
+    border: 0;
+    font-family: var(--font-text);
+    color: #ebebeb;
+    text-align: center;
 }
