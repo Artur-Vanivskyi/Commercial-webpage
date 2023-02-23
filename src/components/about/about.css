@@ -20,7 +20,7 @@
     /* border: 1px solid red; */
     font-size: 45px;
     font-family: var(--font-text);
-    font-weight: 400;
+    font-weight: 300;
     color: var(--color-white);
     padding: 20px;
     display: flex;
@@ -102,6 +102,8 @@
     /* border: 1px solid red; */
     padding-left: 20px;
     padding-right: 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .form-input {
@@ -126,12 +128,12 @@
 
 .button {
     padding: 0 15px;
-    display: block;
     height: 40px;
     font-weight: 500;
     font-size: 16px;
     background: red;
     border: 0;
+    width: 10%;
     font-family: var(--font-text);
     color: #ebebeb;
     text-align: center;
