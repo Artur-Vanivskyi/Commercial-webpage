@@ -12,9 +12,9 @@ import Service from "./components/service/Service";
 import WorkProcess from "./components/work-process/WorkProcess";
 // import './App.css';
 
+
 function App() {
   return (
-   
     <>
       <Home />
       <Service />
@@ -27,5 +27,8 @@ function App() {
     </>
   );
 }
+
+
+
 
 export default App;

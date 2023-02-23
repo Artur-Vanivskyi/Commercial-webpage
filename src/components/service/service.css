@@ -55,3 +55,7 @@
     text-align: center;
     margin-top: 10px;
 }
+
+.text-container p:hover {
+    color: red;
+}
