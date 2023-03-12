@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700;900&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100;300;400;500;700&family=Open+Sans:wght@300&display=swap');
 
 
 :root {
@@ -6,8 +6,8 @@
   --color-white: #ffffff;
   --color-header-right-bg: #141414;
   --color-header-left-bg: rgba(235, 235, 235, 1);
-  --color-text-white:#ffffff;
-  --color-black-text:#000000;
+  --color-text-white: #ffffff;
+  --color-black-text: #000000;
   --color-footer-black: #000000;
 
   --color-text-red: red;
@@ -18,6 +18,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* background: rgba(255, 0, 0, .1); */
 }
 
 li {
@@ -45,12 +46,23 @@ button {
 }
 
 
+html {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+
 body {
+ 
+  
+  border: 1px solid green;
   background-color: var(--white);
-  background-image: url('./assests/gallery/4bg\ \(1\).jpg');
+  background-image: url('./assests/gallery/4bg (1).jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-}
+  
 
+}

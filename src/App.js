@@ -10,12 +10,13 @@ import Projects from "./components/projects/Projects";
 
 import Service from "./components/service/Service";
 import WorkProcess from "./components/work-process/WorkProcess";
-// import './App.css';
+
 
 
 function App() {
   return (
     <>
+    
       <Home />
       <Service />
       <Projects />
@@ -24,6 +25,7 @@ function App() {
       <WorkProcess />
       <About />
       <Footer />
+      
     </>
   );
 }
