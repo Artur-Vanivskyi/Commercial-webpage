@@ -46,7 +46,7 @@ function ClientForm({ formData, handleChange, handleSubmit }) {
       />
 
       <button type="submit" className="button">
-        DONE
+        <p>DONE</p>
       </button>
     </form>
   );

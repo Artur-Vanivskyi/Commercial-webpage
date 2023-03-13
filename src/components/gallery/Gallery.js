@@ -46,9 +46,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleA} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -61,9 +61,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleB} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -75,9 +75,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleC} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -89,9 +89,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleD} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -103,9 +103,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleE} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -117,9 +117,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleF} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -131,9 +131,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleG} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -145,9 +145,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleH} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -159,9 +159,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleJ} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
@@ -173,9 +173,9 @@ function Gallery() {
                     data-lightbox="gallery"
                   > */}
               <img src={sampleK} loading="lazy" alt="" className="gallery-image" />
-              <div className="icon">
+              {/* <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
-              </div>
+              </div> */}
               {/* </a> */}
             </div>
           </swiper-slide>
