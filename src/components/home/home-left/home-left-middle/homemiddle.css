@@ -1,8 +1,6 @@
 .middle-text {
-    /* border: 1px solid red; */
-}
-
-.middle-text {
-    font-size: 34px;
+    font-size: 44px;
     font-family: var(--font-text);
+    line-height: 45px;
+    font-weight: 500;
 }

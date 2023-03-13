@@ -4,9 +4,9 @@ import "./homemiddle.css";
 function HomeMiddle() {
   return (
     <div className="middle-text">
-        <h2>High-End</h2>
-        <h2> Custom</h2>
-        <h2> Glass & Mirror</h2>
+        <p>High-End</p>
+        <p> Custom</p>
+        <p> Glass & Mirror</p>
     </div>
   )
 }

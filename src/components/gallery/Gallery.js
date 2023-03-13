@@ -1,9 +1,17 @@
 import React from "react";
 import "./gallery.css";
-import t1 from "../../assests/gallery/Gallery-10 (1).jpg";
-import t2 from "../../assests/gallery/Gallery-12 (1).jpg";
-import t3 from "../../assests/gallery/Gallery-13 (1).jpg";
-import t4 from "../../assests/gallery/Gallery-14 (1).jpg";
+import sampleA from "../../assests/samples/sample-2.jpeg";
+import sampleB from "../../assests/samples/sample-4.jpeg";
+import sampleC from "../../assests/samples/sample-5.jpeg";
+import sampleD from "../../assests/samples/sample-6.jpeg";
+import sampleE from "../../assests/samples/sample-7.jpeg";
+import sampleF from "../../assests/samples/sample-8.jpeg";
+import sampleG from "../../assests/samples/sample-9.jpeg";
+import sampleH from "../../assests/samples/sample-10.jpeg";
+import sampleJ from "../../assests/samples/sample-11.jpeg";
+import sampleK from "../../assests/samples/sample-12.jpeg";
+
+
 
 function Gallery() {
   return (
@@ -37,7 +45,7 @@ function Gallery() {
                     href="./assets/images/Gallery-8 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t1} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleA} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -52,7 +60,7 @@ function Gallery() {
                     href="./assets/images/Gallery-4 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t2} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleB} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -66,7 +74,7 @@ function Gallery() {
                     href="./assets/images/Gallery-3 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t3} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleC} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -80,7 +88,7 @@ function Gallery() {
                     href="./assets/images/Gallery-2 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t4} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleD} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -94,7 +102,7 @@ function Gallery() {
                     href="./assets/images/Gallery-2 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t4} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleE} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -108,7 +116,7 @@ function Gallery() {
                     href="./assets/images/Gallery-2 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t4} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleF} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -122,7 +130,7 @@ function Gallery() {
                     href="./assets/images/Gallery-2 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t4} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleG} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -136,7 +144,7 @@ function Gallery() {
                     href="./assets/images/Gallery-2 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t4} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleH} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -150,7 +158,7 @@ function Gallery() {
                     href="./assets/images/Gallery-2 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t4} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleJ} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>
@@ -164,7 +172,7 @@ function Gallery() {
                     href="./assets/images/Gallery-2 (1).jpg"
                     data-lightbox="gallery"
                   > */}
-              <img src={t4} loading="lazy" alt="" className="gallery-image" />
+              <img src={sampleK} loading="lazy" alt="" className="gallery-image" />
               <div className="icon">
                 <ion-icon name="search-outline"></ion-icon>
               </div>

@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import "./about.css";
+import ClientForm from "./ClientForm";
+import { createClient } from "../../utils/api";
 
 function About() {
   const initialFormState = {
-    name: "",
+    full_name: "",
     mobile_number: "",
     email: "",
     message: "",
@@ -20,17 +22,28 @@ function About() {
 
   console.log(formData);
 
-  const handleSubmit = (event) => {
+  const handleSubmit = async (event) => {
     event.preventDefault();
+    const abortController = new AbortController();
     console.log("submitted", formData);
-    setFormData(initialFormState);
+    
+    try {
+      await createClient(formData, abortController.signal);
+      setFormData(initialFormState);
+    } catch (err) {
+      console.log(err);
+    }
+
+    return () => abortController.abort();
   };
 
   return (
     <div className="about-container">
       <div className="about-left-container">
         <div className="about-caption">
-          <div className="caption">About <span style={{color: "red", paddingLeft: "10px"}}>Us</span></div>
+          <div className="caption">
+            About <span style={{ color: "red", paddingLeft: "10px" }}>Us</span>
+          </div>
         </div>
         <div className="about-text">
           <div className="text">
@@ -66,52 +79,11 @@ function About() {
             </ul>
           </div>
         </div>
-        <form className="form" onSubmit={handleSubmit}>
-          <input
-            className="form-input"
-            id="name"
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            required
-            value={formData.name}
-            onChange={handleChange}
-          />
-          <input
-            className="form-input"
-            id="mobile_number"
-            type="text"
-            name="mobile_number"
-            placeholder="xxx-xxx-xxxx"
-            required
-            value={formData.mobile_number}
-            onChange={handleChange}
-          />
-          <input
-            className="form-input"
-            id="email"
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            required
-            value={formData.email}
-            onChange={handleChange}
-          />
-          <textarea
-            className="form-input"
-            id="message"
-            type="text"
-            name="message"
-            rows="1"
-            placeholder="Looking For"
-            value={formData.message}
-            onChange={handleChange}
-          />
-
-          <button type="submit" className="button">
-            DONE
-          </button>
-        </form>
+        <ClientForm
+          formData={formData}
+          handleChange={handleChange}
+          handleSubmit={handleSubmit}
+        />
       </div>
     </div>
   );

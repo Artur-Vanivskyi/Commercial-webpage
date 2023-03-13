@@ -1,6 +1,5 @@
 import React from "react";
 import "./service.css";
-import two from "../../assests/gallery/Gallery-2 (1).jpg";
 import six from "../../assests/gallery/Gallery-6 (1).jpg";
 import seven from "../../assests/gallery/Gallery-7 (1).jpg";
 import fifteen from "../../assests/gallery/Gallery-15 (1).jpg";

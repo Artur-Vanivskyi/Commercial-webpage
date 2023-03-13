@@ -14,10 +14,25 @@
     height: 100vh;
 }
 
+.commercial-left-second {
+    background: var(--color-header-left-bg);
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+    height: 100vh;
+}
+
 .commercial-left h2 {
     font-size: 34px;
     font-family: var(--font-text);
     color: var(--color-header-left-bg);
+}
+
+.commercial-left-second h2 {
+    font-size: 34px;
+    font-family: var(--font-text);
+    color: var(--color-header-right-bg);
 }
 
 .commercial-right {
@@ -40,5 +55,12 @@
     font-family: var(--font-text);
     font-size: 18px;
     color: var(--color-header-left-bg);
+    margin-top: 20px;
+}
+
+.commercial-left-second p {
+    font-family: var(--font-text);
+    font-size: 18px;
+    color: var(--color-header-right-bg);
     margin-top: 20px;
 }

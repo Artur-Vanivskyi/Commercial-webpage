@@ -2,15 +2,26 @@
     display: flex;
     justify-content: space-between;
     /* border: 1px solid red; */
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 }
 
 .arrow-box {
     border: 1px solid black;
     font-size: 34px;
     color: red;
+    height: 38px;
+    margin-top: 14px;
 }
 
-.home-footer-text {
+.home-footer-text p {
     font-family: var(--font-text);
+    font-size: 18px;
+    display: flex;
 }
+
+.home-footer-text span {
+    color: red;
+    font-weight: 600;
+    padding-left: 6px;
+    padding-right: 6px;
+} 

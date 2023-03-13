@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../../../../assests/images/logo2.png";
+import logo from "../../../../assests/images/logo.png";
 import "./header.css";
 
 function Header() {
@@ -10,8 +10,10 @@ function Header() {
           </div>
           <nav className="navigation">
             <ul>
-              <li><a href="#features">Features</a></li>
-              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#our-projects">Features</a></li>
+              <li><span>/</span></li>
+              <li><a href="#contact">Pricing</a></li>
+              <li><span>/</span></li>
               <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>

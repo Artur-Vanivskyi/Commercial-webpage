@@ -10,7 +10,8 @@ function HomeFooter() {
         <ion-icon name="arrow-forward-outline"></ion-icon>
         </div>
         <div className="home-footer-text">
-            <p>We make your glasswork easy, fast, convinient</p>
+            <p>We make your glasswork</p> 
+            <p>easy <span>/</span> fast <span>/</span> convinient</p>
         </div>
     </div>
   )
