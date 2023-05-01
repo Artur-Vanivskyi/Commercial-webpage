@@ -2,7 +2,7 @@ import React from "react";
 import "./commercial.css";
 import test from "../../assests/gallery/test.jpg";
 import sampleFifteen from "../../assests/samples/sample-15.jpeg";
-
+// imports
 
 function Commercial() {
   return (

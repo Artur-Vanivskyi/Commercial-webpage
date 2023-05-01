@@ -11,26 +11,26 @@ import Projects from "./components/projects/Projects";
 import Service from "./components/service/Service";
 import WorkProcess from "./components/work-process/WorkProcess";
 
-
-
 function App() {
   return (
     <>
-    
       <Home />
+
       <Service />
+
       <Projects />
+
       <Commercial />
+
       <Gallery />
+
       <WorkProcess />
+
       <About />
+
       <Footer />
-      
     </>
   );
 }
-
-
-
 
 export default App;
