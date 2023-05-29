@@ -4,7 +4,7 @@ import "./homeright.css";
 function HomeRight() {
   return (
     <div className="request-section">
-      <a href="#contact">
+      <a href="">
         <p>Request Quote</p>
       </a>
     </div>

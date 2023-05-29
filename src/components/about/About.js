@@ -25,17 +25,20 @@ function About() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     const abortController = new AbortController();
-    console.log("submitted", formData);
-    
+
     try {
       await createClient(formData, abortController.signal);
-      setFormData(initialFormState);
     } catch (err) {
       console.log(err);
     }
-
+    setFormData(initialFormState);
     return () => abortController.abort();
   };
+
+  const handleClick = (event) => {
+    event.preventDefault()
+    window.location.reload(true)
+  }
 
   return (
     <div className="about-container">
@@ -62,17 +65,17 @@ function About() {
           <div className="socials">
             <ul className="socials-list">
               <li className="socials-item">
-                <a href="/">
+                <a href="" onClick={handleClick}>
                   <ion-icon name="logo-instagram"></ion-icon>
                 </a>
               </li>
               <li className="socials-item">
-                <a href="/">
+                <a href=""  onClick={handleClick}>
                   <ion-icon name="logo-facebook"></ion-icon>
                 </a>
               </li>
               <li className="socials-item">
-                <a href="/">
+                <a href=""  onClick={handleClick}>
                   <ion-icon name="logo-twitter"></ion-icon>
                 </a>
               </li>
